@@ -1,0 +1,17 @@
+
+# poetry dependencies file
+poetry.lock
+
+# Cache
+__pycache__
+*.pyc
+
+# Virtual environments
+.venv
+venv
+
+# VSCore configs
+.vscode
+
+# Data files
+data/*
