@@ -14,4 +14,4 @@ venv
 .vscode
 
 # Data files
-data/*
+data/**/*.csv
