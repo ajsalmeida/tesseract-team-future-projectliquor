@@ -7,27 +7,18 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
  ## 
 
 ## Objetivos e resultados chave
-
-os "Objetivos" se relacionam com a meta do projeto, e os "Resultados-Chave" expressam como essa meta será alcançada. Os Objetivos e resultados chave devem ser definidos no início de um projeto. A ideia é escolher uma métrica associada a um projeto e defini-la como o objetivo. Isso mostra a meta que você deseja alcançar. Em seguida, os resultados-chave são definidos para mostrar como atingir o objetivo. Os resultados principais são mensuráveis ​​e geralmente limitados a três a cinco por objetivo.
-
-Em síntese, os objetivos estão ligados as entregas e os resultados chave aos passos que precisam se seguir para conseguir alcançar os resultados.
-Exemplo de objetivos e resultados chave aplicados a projetos de ciência de dados.
-
- - Realizar uma análise exploratória de dados de <conjunto de dados>
-    - Indentificar variáveis, descrevê-las e definir os tipos de dados
-    - Realizar transformação de variáveis (codificação)
-    - Tratar de valores faltantes e valores discrepantes
-    - ...
- - Criar modelo de detecção de fakenews
-    - Realizar transformação de dados textuais utilizando o tf-idf
-    - ...
- - ...
+- Identificar variáveis
+- Realizar análise exploratória dos dados
+  - Retirar linhas vazias
+  - Uniformizar os dados
+  - Encontrar os condados onde se vendeu mais
+  - No condado onde se vendeu mais, quais cidades venderam mais bebida
+  - Encontrar as cidades onde se vendeu mais
+  - Saber em que ano nos dados disponíveis houve maior venda de bebidas
+-Criar modelo de detecção de melhores locais para iniciar vendas de bebidas
 
 ## Conteúdo
--notebook1
--notebook2
--notebook3
--notebook4
+-init.ipynb: Análise exploratória de dados
 ## Utilização
 
 Descreva aqui quais os passos necessários (dependências externas, comandos, etc.) para replicar o seu projeto. Instalação de dependências necessárias, criação de ambientes virtuais, etc. Este modelo é baseado em um projeto utilizando o [Poetry](https://python-poetry.org/) como gerenciador de dependências e ambientes virtuais. Você pode utilizar o `conda`, ambientes virtuais genéricos do Python ou até mesmo containers do docker. Mas tente fazer algo que seja facilmente reprodutível.
