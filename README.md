@@ -24,6 +24,6 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
 Descreva aqui quais os passos necessários (dependências externas, comandos, etc.) para replicar o seu projeto. Instalação de dependências necessárias, criação de ambientes virtuais, etc. Este modelo é baseado em um projeto utilizando o [Poetry](https://python-poetry.org/) como gerenciador de dependências e ambientes virtuais. Você pode utilizar o `conda`, ambientes virtuais genéricos do Python ou até mesmo containers do docker. Mas tente fazer algo que seja facilmente reprodutível.
 
 ## Desenvolvedores
- -[Contribuidor 1](http://github.com/andrerodrig)
- -[Contribuidor 2](http://github.com/ajsalmeida)
- -[Contribuidor 3](http://github.com/omadson)
+
+ - [André Rodrigues](http://github.com/andrerodrig)
+ - [Antonio José](http://github.com/ajsalmeida)
