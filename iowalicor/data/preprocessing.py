@@ -38,7 +38,11 @@ def slugify(text: str) -> str:
     return re.sub(r"[^\w]+", "_", slug).strip("_")
 
 
-def get_dataset_slice(filename: str, shuffle: bool=False) -> pd.DataFrame:
+def get_dataset_slice(
+    filename: str,
+    shuffle: bool = False,
+    random_state: int = None
+) -> pd.DataFrame:
     """Get a random slice of the dataset.
     It uses the dask library to handle multiple chunks of the big dataset.
 
@@ -49,6 +53,9 @@ def get_dataset_slice(filename: str, shuffle: bool=False) -> pd.DataFrame:
     shuffle: bool
         If True, the function returns a random chunk of the dataset with shuffled data. 
         If False, it returns a yet random chunk, but the data will not be shuffled.
+    random_state: int
+        If this argument receives an integer, this value is used as a seed to the
+        pseudo random generator.
     
     Returns
     -------
@@ -71,7 +78,10 @@ def get_dataset_slice(filename: str, shuffle: bool=False) -> pd.DataFrame:
     random_index = randint(0, len(dataset_list) - 1)
     if shuffle:
         return pd.DataFrame(
-            dataset_list[random_index].compute().sample(frac=1).reset_index(drop=True)
+            dataset_list[random_index].compute().sample(
+                frac=1,
+                random_state=random_state
+            ).reset_index(drop=True)
         )
     else:
         return pd.DataFrame(dataset_list[random_index].compute())
