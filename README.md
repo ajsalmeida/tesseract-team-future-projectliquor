@@ -22,9 +22,14 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
 - processing.ipynb: utilização de amostra com slugfication
 - var_classes.ipynb: classificação das variáveis
 ## Utilização
-- Pandas
-- Slugify
-
+- Bibliotecas:
+  - [MatplotLib](https://matplotlib.org/)
+  - [Numpy](https://numpy.org/)
+  - [Pandas](https://pandas.pydata.org/)
+  - [Slugify](https://pypi.org/project/python-slugify/)
+- Ferramentas
+  - [Jupyter](https://jupyter.org/)
+  - [Anaconda](https://www.anaconda.com/)
 ## Desenvolvedores
 
  - [André Rodrigues](http://github.com/andrerodrig)
