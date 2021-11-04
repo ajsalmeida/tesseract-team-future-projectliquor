@@ -15,12 +15,12 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
   - No condado onde se vendeu mais, quais cidades venderam mais bebida
   - Encontrar as cidades onde se vendeu mais
   - Saber em que ano nos dados disponíveis houve maior venda de bebidas
--Criar modelo de detecção de melhores locais para iniciar vendas de bebidas
+- Criar modelo de detecção de melhores locais para iniciar vendas de bebidas
 
 ## Conteúdo
--init.ipynb: Análise exploratória de dados
--processing.ipynb: utilização de amostra com slugfication
--var_classes.ipynb: classificação das variáveis
+- init.ipynb: Análise exploratória de dados
+- processing.ipynb: utilização de amostra com slugfication
+- var_classes.ipynb: classificação das variáveis
 ## Utilização
 - Pandas
 - Slugify
