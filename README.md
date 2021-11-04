@@ -15,13 +15,15 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
   - No condado onde se vendeu mais, quais cidades venderam mais bebida
   - Encontrar as cidades onde se vendeu mais
   - Saber em que ano nos dados disponíveis houve maior venda de bebidas
--Criar modelo de detecção de melhores locais para iniciar vendas de bebidas
+- Criar modelo de detecção de melhores locais para iniciar vendas de bebidas
 
 ## Conteúdo
--init.ipynb: Análise exploratória de dados
+- init.ipynb: Análise exploratória de dados
+- processing.ipynb: utilização de amostra com slugfication
+- var_classes.ipynb: classificação das variáveis
 ## Utilização
-
-Descreva aqui quais os passos necessários (dependências externas, comandos, etc.) para replicar o seu projeto. Instalação de dependências necessárias, criação de ambientes virtuais, etc. Este modelo é baseado em um projeto utilizando o [Poetry](https://python-poetry.org/) como gerenciador de dependências e ambientes virtuais. Você pode utilizar o `conda`, ambientes virtuais genéricos do Python ou até mesmo containers do docker. Mas tente fazer algo que seja facilmente reprodutível.
+- Pandas
+- Slugify
 
 ## Desenvolvedores
 
