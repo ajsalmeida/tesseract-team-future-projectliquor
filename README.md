@@ -27,6 +27,7 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
   - [Numpy](https://numpy.org/)
   - [Pandas](https://pandas.pydata.org/)
   - [Slugify](https://pypi.org/project/python-slugify/)
+  - [SciKit-Learn](https://scikit-learn.org/stable/)
 - Ferramentas
   - [Jupyter](https://jupyter.org/)
   - [Anaconda](https://www.anaconda.com/)
