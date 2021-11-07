@@ -5,3 +5,4 @@ seaborn
 invoke
 scikit-learn
 dask
+kaggle
