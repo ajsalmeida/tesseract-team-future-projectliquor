@@ -21,16 +21,3 @@ def get_dataset(c):
             dataset_obj.extractall(path=data_dir)
         c.run(f"rm -rf {data_dir / 'iowa-liquor-sales.zip'}")
     print("Done!")
-
-
-@task
-def install(c):
-    """Project installation.
-
-    Task to automate the project reinstallation. It creates the virtualenv and install the package.
-    """
-    if build_path := "dist" in os.listdir(root_path):
-        c.run(f"rm -rf {build_path}")
-    c.run("python -m build")
-    c.run("pip install -e .[dev]")
-

@@ -16,3 +16,6 @@ venv
 
 # Data files
 data/**/*.csv
+
+# Build files
+dist

@@ -21,6 +21,29 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
 - init.ipynb: Análise exploratória de dados
 - processing.ipynb: utilização de amostra com slugfication
 - var_classes.ipynb: classificação das variáveis
+
+
+## Instalação
+### Pré-requisitos
+- Python 3.8+.
+
+Antes de rodar o projeto é necessário realizar os seguintes passos:
+1. Dentro do projeto, executar:
+```
+$ pip install dist/iowalicor-py3-none-any.whl
+```
+2. Instalar as credenciais do kaggle API: [Kaggle API](https://github.com/Kaggle/kaggle-api#api-credentials)
+
+3. Baixar dataset usado pelo projeto com o comando:
+```
+$ inv get-dataset
+```
+Após esses passos já é possível executar os notebooks.
+
+## Instalação - Desenvolvimento
+### Pré-requisitos
+- Poetry: [Installation](https://python-poetry.org/docs/#installation)
+
 ## Utilização
 - Pandas
 - Slugify
