@@ -21,6 +21,33 @@ Esse dataset é uma junção dos registros de vendas de bebidas alcóolicas no e
 - init.ipynb: Análise exploratória de dados
 - processing.ipynb: utilização de amostra com slugfication
 - var_classes.ipynb: classificação das variáveis
+
+## Pré-Requisitos
+- Python 3.8+
+- Poetry (Opcional, porém recomendado)
+- Obter credenciais do Kaggle API. 
+  - [Kaggle API Docs](https://github.com/Kaggle/kaggle-api#api-credentials) 
+
+## Instalação
+### Instalação das dependências utilizando Poetry:
+- Executar `poetry install`;
+- Para entrar na virtualenv do poetry, basta executar `poetry shell`;
+
+### Instalação através do arquivo setup.py
+- Criar uma venv executando: `python -m venv .venv`;
+- Entrar na venv:
+  - Linux: `source .venv/bin/activate`;
+  - Windows: `.venv\Scripts\activate`.
+- Executar o comando `python setup.py install`.
+
+## Obtenção do Dataset
+- Executar: `inv get-dataset`. O dataset será salvo em `data/raw/`.
+
+## Geração do build
+### Gerando build através do Poetry:
+- Executar `poetry build`. Build será salvo em dist/
+- Para instalar o build basta executar `pip install dist/iwoalicor-...-.whl`
+
 ## Utilização
 - Bibliotecas:
   - [MatplotLib](https://matplotlib.org/)

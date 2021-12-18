@@ -5,6 +5,7 @@ poetry.lock
 # Cache
 __pycache__
 *.pyc
+*.egg-info
 
 # Virtual environments
 .venv
@@ -15,3 +16,7 @@ venv
 
 # Data files
 data/**/*.csv
+
+# build files
+dist/
+build/
